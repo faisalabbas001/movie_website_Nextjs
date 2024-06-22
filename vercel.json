@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "next.config.js",
+        "use": "@vercel/static-build",
+        "config": {}
+      }
+    ],
+    "env": {
+      "MONGODB_URL": "mongodb+srv://faisal222abbas786:wn8SSLufpdPuNZnG@cluster0.n3vvs8c.mongodb.net/startdata?retryWrites=true&w=majority&appName=Cluster0"
+    }
+  }
