@@ -20,7 +20,7 @@ const Page = async ({ params }) => {
        {
            output.map((curElem) => {
                return (
-                   <div className={styles.container}>
+                   <div key={curElem.id}  className={styles.container}>
        <h2 className={styles.movie_title}>
          Netflix \ <span> {curElem.id} </span>
        </h2>
